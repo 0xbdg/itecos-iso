@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="ITEC-OS"
-iso_label="ITEC-OS"
-iso_publisher="ITEC-OS <https://xenonull.github.io/itec-os>"
-iso_application="ITEC-OS Live/Rescue CD"
+iso_name="ITEC-OS-Linux"
+iso_label="ITEC-OS_$(date +%Y%m)"
+iso_publisher="ITEC-OS Linux <https://example.com>"
+iso_application="ITEC-OS Linux Live/Rescue CD"
 iso_version="$(date +%Y.%m.%d)"
 install_dir="arch"
 buildmodes=('iso')

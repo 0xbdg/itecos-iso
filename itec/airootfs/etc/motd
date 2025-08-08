@@ -1,4 +1,5 @@
-Welcome to [38;2;23;147;209mITEC-OS[0m follow the installation guide:
+To install [38;2;23;147;209mITEC-OS Linux[0m follow the installation guide:
+https://wiki.archlinux.org/title/Installation_guide
 
 For Wi-Fi, authenticate to the wireless network using the [35miwctl[0m utility.
 For mobile broadband (WWAN) modems, connect with the [35mmmcli[0m utility.

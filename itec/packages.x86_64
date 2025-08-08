@@ -19,6 +19,7 @@ diffutils
 dmraid
 dnsmasq
 dosfstools
+dialog
 e2fsprogs
 edk2-shell
 efibootmgr
@@ -33,6 +34,7 @@ gpm
 gptfdisk
 grml-zsh-config
 grub
+git
 hdparm
 intel-ucode
 irssi
@@ -53,6 +55,7 @@ lvm2
 lynx
 man-db
 man-pages
+virtualbox-guest-utils-nox
 mc
 mdadm
 memtest86+
@@ -125,7 +128,6 @@ nautilus
 networkmanager
 gnome-text-editor
 eog
-nano
 noto-fonts
 noto-fonts-cjk
 noto-fonts-extra
