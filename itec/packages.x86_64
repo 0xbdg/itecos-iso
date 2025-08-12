@@ -3,6 +3,7 @@ amd-ucode
 arch-install-scripts
 b43-fwcutter
 base
+base-devel
 bcachefs-tools
 bind
 bolt
@@ -154,4 +155,7 @@ perl-gtk3
 perl-data-dump
 pasystray
 lightdm
+fastfetch
 lightdm-gtk-greeter
+obmenu-generator
+perl-linux-desktopfiles
