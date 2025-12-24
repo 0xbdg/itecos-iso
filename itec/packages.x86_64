@@ -1,6 +1,5 @@
 alsa-utils
 amd-ucode
-arch-install-scripts
 b43-fwcutter
 base
 base-devel
@@ -131,16 +130,13 @@ zsh
 
 openbox
 networkmanager
-network-manager-applet
 git
 kitty
 firefox
 dialog
 python
 python-pip
-geany
 rofi
-caja
 conky
 xorg
 xorg-server
@@ -149,13 +145,21 @@ pulseaudio
 pavucontrol
 nitrogen
 lxappearance
-tint2
 perl
 perl-gtk3
 perl-data-dump
 pasystray
 lightdm
 fastfetch
-lightdm-gtk-greeter
+lightdm-webkit2-greeter
 obmenu-generator
 perl-linux-desktopfiles
+bluez
+bluez-utils
+picom
+maim
+polybar
+randr
+brightnessctl
+xdotool
+cairo-dock
