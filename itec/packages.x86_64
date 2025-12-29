@@ -170,4 +170,6 @@ smartmontools
 xorg
 mesa
 mesa-utils
+vulkan-intel
+vulkan-tools
 libglvnd
