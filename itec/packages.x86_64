@@ -172,4 +172,6 @@ mesa
 mesa-utils
 vulkan-intel
 vulkan-tools
+vulkan-icd-loader 
+vulkan-validation-layers
 libglvnd
