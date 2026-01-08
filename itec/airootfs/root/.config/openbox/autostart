@@ -1,10 +1,12 @@
-nm-applet &
+picom &
 
-tint2 &
+~/.config/polybar/launch.sh &
 
 conky &
 
-nitrogen --set-auto /usr/local/share/backgrounds/wallpaper.png &
+cairo-dock -o &
+
+feh --bg-fill '/usr/local/share/backgrounds/wallpaper.png' &
 
 pulseaudio --start &
 

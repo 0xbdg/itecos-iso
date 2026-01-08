@@ -145,7 +145,6 @@ xorg-server
 xorg-xinit
 pulseaudio
 pavucontrol
-nitrogen
 lxappearance
 perl
 perl-gtk3
@@ -153,7 +152,7 @@ perl-data-dump
 pasystray
 lightdm
 fastfetch
-lightdm-webkit2-greeter
+lightdm-gtk-greeter
 obmenu-generator
 perl-linux-desktopfiles
 bluez
@@ -175,3 +174,5 @@ vulkan-tools
 vulkan-icd-loader 
 vulkan-validation-layers
 libglvnd
+feh
+xclip

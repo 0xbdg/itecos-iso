@@ -30,9 +30,9 @@ my $editor = $CONFIG->{editor};
 our $SCHEMA = [
 
     #          COMMAND                 LABEL              ICON
-    {item => ['xdg-open .',       'File Manager', 'system-file-manager']},
+    {item => ['pcmanfm',       'File Manager', 'system-file-manager']},
     {item => ['kitty',            'Terminal',     'utilities-terminal']},
-    {item => ['xdg-open http://', 'Web Browser',  'web-browser']},
+    {item => ['firefox', 'Web Browser',  'web-browser']},
     {item => ['rofi -show run',            'Run command',  'system-run']},
 
     {sep => 'Categories'},
