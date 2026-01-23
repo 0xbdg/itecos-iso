@@ -174,3 +174,5 @@ vulkan-validation-layers
 libglvnd
 feh
 xclip
+mokutil
+plymouth
