@@ -1,1 +1,12 @@
-/etc/os-release
+NAME="ITEC-OS Linux"
+PRETTY_NAME="ITEC-OS"
+ID=itec
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://example.org/"
+DOCUMENTATION_URL="https://wiki.example.org/"
+SUPPORT_URL="https://bbs.example.org/"
+BUG_REPORT_URL="https://gitlab.example.org/groups/itec/-/issues"
+PRIVACY_POLICY_URL="https://terms.example.org/docs/privacy-policy/"
+LOGO=itecos-logo
+
