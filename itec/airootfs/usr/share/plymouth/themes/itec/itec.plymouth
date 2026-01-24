@@ -1,0 +1,7 @@
+[Plymouth Theme]
+Name=itec
+ModuleName=two-step
+
+[two-step]
+ImageDir=/usr/share/plymouth/themes/itec
+Logo=logo.png
