@@ -163,6 +163,7 @@ polybar
 brightnessctl
 xdotool
 cairo-dock
+cairo-dock-plug-ins
 pcmanfm
 smartmontools
 xorg

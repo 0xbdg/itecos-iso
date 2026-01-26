@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openbox_menu xmlns="https://openbox.org/"
- xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://openbox.org/">
-    <menu id="root-menu" label="obmenu-generator" execute="/usr/bin/obmenu-generator -i" />
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/ file:///usr/share/openbox/menu.xsd">
+    <menu id="first" label="System">
+        <item label="Shutdown">
+            <action name="Execute">
+                <command>systemctl poweroff</command>
+            </action>
+        </item>
+        <item label="Reboot">
+            <action name="Execute">
+                <command>systemctl reboot</command>
+            </action>
+        </item>
+        <item label="Sleep">
+            <action name="Execute">
+                <command>systemctl hibernate</command>
+            </action>
+        </item>
+    </menu>
+    <menu id="root-menu" label="0xbdg">
+        <item label="Install ITEC-OS">
+            <action name="Execute">
+                <command></command>
+            </action>
+        </item>
+        <item label="Search application">
+            <action name="Execute">
+                <command>rofi -show drun -show-icons</command>
+            </action>
+        </item>
+        <item label="Refresh">
+            <action name="Execute">
+                <command>openbox --reconfigure</command>
+            </action>
+        </item>
+        <separator />
+        <item label="Change background">
+            <action name="Execute">
+                <command></command>
+            </action>
+        </item>
+        <item label="Sound setting">
+            <action name="Execute">
+                <command>pavucontrol</command>
+            </action>
+        </item>
+        <item label="Display setting">
+            <action name="Execute">
+                <command>arandr</command>
+            </action>
+        </item>
+        <item label="Desktop appearance">
+            <action name="Execute">
+                <command>lxappearance</command>
+            </action>
+        </item>
+        <separator />
+        <menu id="first" />
+        <item label="Log Out">
+            <action name="Execute">
+                <command>openbox --exit</command>
+            </action>
+        </item>
+    </menu>
 </openbox_menu>
