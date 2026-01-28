@@ -1,0 +1,11 @@
+logo = Image("logo.png")
+
+screen_width, screen_height = Window.GetSize()
+
+x = (screen_width - logo:GetWidth()) / 2
+y = (screen_height - logo:GetHeight()) / 2
+
+logo_sprite = Sprite(logo)
+
+logo_sprite:SetPosition(x, y)
+logo_sprite:Show()

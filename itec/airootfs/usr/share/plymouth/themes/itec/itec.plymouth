@@ -4,4 +4,4 @@ ModuleName=two-step
 
 [two-step]
 ImageDir=/usr/share/plymouth/themes/itec
-Logo=logo.png
+ScriptFile=/usr/share/plymouth/themes/itec/itec.script
