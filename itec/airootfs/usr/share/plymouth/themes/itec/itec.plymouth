@@ -1,7 +1,7 @@
 [Plymouth Theme]
 Name=itec
-ModuleName=two-step
+ModuleName=script
 
-[two-step]
+[script]
 ImageDir=/usr/share/plymouth/themes/itec
 ScriptFile=/usr/share/plymouth/themes/itec/itec.script
