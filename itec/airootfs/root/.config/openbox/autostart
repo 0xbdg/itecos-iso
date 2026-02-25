@@ -1,0 +1,13 @@
+picom &
+
+~/.config/polybar/launch.sh &
+
+conky &
+
+cairo-dock -o &
+
+feh --bg-fill '/usr/local/share/backgrounds/wallpaper.png' &
+
+pulseaudio --start &
+
+pasystray &
