@@ -17,12 +17,7 @@
             </action>
         </item>
     </menu>
-    <menu id="root-menu" label="0xbdg">
-        <item label="Install ITEC-OS">
-            <action name="Execute">
-                <command></command>
-            </action>
-        </item>
+    <menu id="root-menu" label="0xbdg"> 
         <item label="Search application">
             <action name="Execute">
                 <command>rofi -show drun -show-icons</command>
